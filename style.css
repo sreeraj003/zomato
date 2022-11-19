@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+header{
+    background-image: url(img/image/81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 65vh;
+}
+header a{
+    color: white!important;
+}
+header ul li{
+    display: inline-flex;
+    justify-content:space-between ;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter!important;
+}
+.zomato li a{
+    color: black!important;
+}
+.zomato{
+    text-align: center;
+}
+.btn{
+    color:black!important ;
+}
+.location{
+    border-radius: 10px;
+    display: inline-flex;
+    
+}
+.search{
+    border: 0;
+    
+}
+.card{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.set{
+    align-items: center;
+}
+.nut h6{
+    color: rgb(220, 80, 80)!important;
+}
+.nut p{
+    font-size: 15px;
+    color: rgb(119, 117, 117);
+}
+.oneline:hover {
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+.card-img-overlay{
+    margin-top:220px ;
+}
+a,a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+.secondline{
+    white-space:nowrap;
+    overflow:hidden ;
+
+}
+.card-img{
+    height: 20rem;
+}
+main{
+    padding: 0;
+    margin: 0;
+}
+.collection{
+    margin-top: 100px;
+}
+.para{
+    font-weight:100;
+    color: rgb(73, 73, 73);
+}
+.all{
+    float: right;
+    color: rgb(220, 80, 80);
+}
+.popular{
+    margin-top: 100px;
+}
+.place{
+    margin-top: 100px;
+}
+.placecard,.expbtn{
+    height: 80px;
+    box-shadow: 0 0 7px -5px black;
+    width: 100%;
+    content: inherit;
+}
+.dropdown-toggle-split{
+    width: fit-content;
+}
+.placetwo button{
+    height: 80px!important;
+    box-shadow: 0 0 7px -5px black;
+    width: 100%!important;
+}
+.mobile{
+    float: right;
+    height: 300px;
+}
+.mobilerow{
+    margin-top: 200px;
+}
+input[type='radio']:checked:after {
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    top: -3px;
+    left: -1px;
+    position: relative;
+    background-color: #d9474c;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+.appsearch{
+    color: #fff!important;
+}
+.mobileadd img{
+    width: 110px!important;
+}
+.Explore{
+    margin-top: 100px;
+}
+.expbtn,.expbtn:hover{
+    width: 100%!important;
+    opacity: 0.8;
+    box-shadow: 0 0 5px -3px;
+}
+
+.food{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.listmenu a{
+    color: black!important;
+}
+.india{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.trop{
+    display: inline-flex;
+    justify-content:right;
+    border-width: 1px!important;
+    border-color: black!important;
+}
+.mn{
+    background-color: #edeff1;
+}
+.foot p{
+    font-size: 13px!important;
+    line-height: 10px;
+}
+.icons a{
+    color: black;
+}
+.mt img{
+    width: 150px!important;
+    margin-bottom: 5px;
+}
+.footr{
+    text-align: center;
+    opacity: 0.6;
+}
