@@ -177,3 +177,8 @@ input[type='radio']:checked:after {
     text-align: center;
     opacity: 0.6;
 }
+@media screen and (max-width : 769px){
+    .navbar li a {
+        color: black!important;
+    }
+}
