@@ -3,12 +3,14 @@
     padding:0%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    overflow-x: hidden;
 }
 header{
     background-image: url(img/image/81f3ff974d82520780078ba1cfbd453a1583259680.avif);
     background-size: cover ;
     background-repeat: no-repeat;
     height: 65vh;
+    width: 100%;
 }
 header a{
     color: white!important;
@@ -68,12 +70,14 @@ a,a:hover{
     overflow:hidden ;
 
 }
+
 .card-img{
     height: 20rem;
 }
 main{
     padding: 0;
     margin: 0;
+    align-items: center!important;
 }
 .collection{
     margin-top: 100px;
@@ -181,4 +185,22 @@ input[type='radio']:checked:after {
     .navbar li a {
         color: black!important;
     }
+}
+.collapse a{
+    color: black!important;
+}
+@media screen and (max-width : 575px){
+    .body {
+        align-items: center!important;
+    }
+}
+.accordion-item button, toggle{
+    color: black!important;
+    background-color: transparent!important;
+}
+.bdy{
+    align-items: center!important;
+}
+.foot p, h6{
+    overflow-y:hidden ;
 }
