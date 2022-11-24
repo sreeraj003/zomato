@@ -38,14 +38,10 @@ header ul li{
 }
 .search{
     border: 0;
-    
-}
-.card{
-    white-space: nowrap;
-    overflow: hidden;
 }
 .set{
     align-items: center;
+    
 }
 .nut h6{
     color: rgb(220, 80, 80)!important;
@@ -57,9 +53,11 @@ header ul li{
 .oneline:hover {
     transform: scale(1.06);
     transition: 0.3s;
+    
 }
 .card-img-overlay{
     margin-top:220px ;
+    
 }
 a,a:hover{
     text-decoration: none;
@@ -73,14 +71,11 @@ a,a:hover{
 
 .card-img{
     height: 20rem;
-}
-main{
-    padding: 0;
-    margin: 0;
-    align-items: center!important;
+    
 }
 .collection{
     margin-top: 100px;
+    
 }
 .para{
     font-weight:100;
@@ -185,22 +180,26 @@ input[type='radio']:checked:after {
     .navbar li a {
         color: black!important;
     }
+   
 }
 .collapse a{
     color: black!important;
-}
-@media screen and (max-width : 575px){
-    .body {
-        align-items: center!important;
-    }
 }
 .accordion-item button, toggle{
     color: black!important;
     background-color: transparent!important;
 }
-.bdy{
-    align-items: center!important;
-}
 .foot p, h6{
     overflow-y:hidden ;
+}
+.foot{
+    margin-left: 3vw!important;
+    margin-right: 1vw;
+}
+@media screen and (min-width : 575px){
+    .trop {
+        display: inline-flex;
+        justify-content: left!important;
+    }
+        
 }
